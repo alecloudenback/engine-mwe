@@ -1,0 +1,12 @@
+{
+  "hash": "65d621e0a26bbf507606634121c0a6e9",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\nengine: julia\n---\n\n\n\n\n\n\n# Preface {.unnumbered}\n\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n\n\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Pkg\nPkg.activate(\".\")\nPkg.add(\"CairoMakie\")\n\nusing CairoMakie\nscatter(rand(10), rand(10))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n  Activating project at `~/prog/engine-mwe`\n   Resolving package versions...\n  No Changes to `~/prog/engine-mwe/Project.toml`\n  No Changes to `~/prog/engine-mwe/Manifest.toml`\n```\n:::\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](index2_files/figure-html/cell-2-output-2.svg){}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index2_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

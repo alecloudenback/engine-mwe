@@ -1,0 +1,11 @@
+{
+  "hash": "94b8dfc2212b8b4f657c9183e628703a",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "# Preface {.unnumbered}\n\n---\nengine: julia\n---\n\n\n\n\n\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n::: {.cell execution_count=1}\n``` {.julia .cell-code}\nusing Pkg\nPkg.activate(\".\")\nPkg.add(\"CairoMakie\")\n\nusing CairoMakie\nscatter(rand(10), rand(10))\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n  Activating project at `~/prog/engine-mwe`\n   Resolving package versions...\n  No Changes to `~/prog/engine-mwe/Project.toml`\n  No Changes to `~/prog/engine-mwe/Manifest.toml`\n┌ Warning: Found `resolution` in the theme when creating a `Scene`. The `resolution` keyword for `Scene`s and `Figure`s has been deprecated. Use `Figure(; size = ...` or `Scene(; size = ...)` instead, which better reflects that this is a unitless size and not a pixel resolution. The key could also come from `set_theme!` calls or related theming functions.\n└ @ Makie ~/.julia/packages/Makie/rEu75/src/scenes.jl:227\n```\n:::\n\n::: {.cell-output .cell-output-display execution_count=8}\n![](index_files/figure-pdf/cell-2-output-2.png){fig-pos='H'}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

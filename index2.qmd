@@ -1,0 +1,19 @@
+---
+engine: julia
+---
+
+# Preface {.unnumbered}
+
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{julia}
+using Pkg
+Pkg.activate(".")
+Pkg.add("CairoMakie")
+
+using CairoMakie
+scatter(rand(10), rand(10))
+```
